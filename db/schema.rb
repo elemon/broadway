@@ -25,7 +25,7 @@ ActiveRecord::Schema.define(version: 2020_02_19_201403) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.integer "user_id"
-    t.integer "category_to"
+    t.integer "category_id"
   end
 
   create_table "users", force: :cascade do |t|
