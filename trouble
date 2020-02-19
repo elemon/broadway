@@ -1,0 +1,18 @@
+
+Install simple_form gem to gem file then run;
+rails generate simple_form:install --bootstrap
+===============================================================================
+
+  Be sure to have a copy of the Bootstrap stylesheet available on your
+  application, you can get it on http://getbootstrap.com/.
+
+  For usage examples and documentation, see:
+
+    http://simple-form-bootstrap.plataformatec.com.br/
+
+===============================================================================
+
+Install bootstrap-sass then;
+Import Bootstrap styles in app/assets/stylesheets/application.scss:
+@import "bootstrap-sprockets";
+@import "bootstrap";
