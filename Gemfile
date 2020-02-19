@@ -12,7 +12,7 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.7'
 gem 'bootsnap', '>= 1.4.2', require: false
 gem 'simple_form', '~> 5.0', '>= 5.0.2'
-#gem 'devise', '~> 4.7', '>= 4.7.1'
+gem 'devise', '~> 4.7', '>= 4.7.1'
 gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
 
 group :development, :test do
