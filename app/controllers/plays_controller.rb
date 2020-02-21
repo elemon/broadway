@@ -10,7 +10,7 @@ class PlaysController < ApplicationController
 
 	def new
 		@play = current_user.plays.build
-		@categories =Category.all.map{ |c| [c.name, c.id]}
+		@categories = Category.all.map{ |c| [c.name, c.id] }
 	end
 
 	def create
@@ -25,8 +25,9 @@ class PlaysController < ApplicationController
 	end
 
 	def edit
+		@categories = Category.all.map{ |c| [c.name, c.id] }	
 	end
-
+	
 	def update
 		@play.category_id = params[:category_id]
 
